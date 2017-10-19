@@ -1,6 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import ReactDOM from 'react-websocket'
 import ReactDOM from 'react-dom'
+import x from 'moment.js' ;
 class RandomTest extends Component {
   static PropTypes = {
     h1: PropTypes.string,
